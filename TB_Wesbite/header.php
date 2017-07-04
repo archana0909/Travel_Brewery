@@ -12,23 +12,23 @@
     <div class="collapse navbar-collapse" id="index-navbar-right">
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a class="page-scroll" href="#about">About</a>
+          <a class="page-scroll" href="<?php if(!strpos($_SERVER['SCRIPT_NAME'], 'index.php')): ?>index.php<?php endif;?>#about">About</a>
         </li>
         <li>
-          <a class="page-scroll" href="#services">Our Services</a>
+          <a class="page-scroll" href="<?php if(!strpos($_SERVER['SCRIPT_NAME'], 'index.php')): ?>index.php<?php endif;?>#services">Our Services</a>
         </li>
         <li>
-          <a class="page-scroll" href="#tours">Tours</a>
+          <a class="page-scroll" href="<?php if(!strpos($_SERVER['SCRIPT_NAME'], 'index.php')): ?>index.php<?php endif;?>#tours">Tours</a>
         </li>
 
         <li>
-          <a target="_blank" href="eastern-europe-trip-details.php">Trip Itinerary</a>
+          <a href="eastern-europe-trip-details.php">Trip Itinerary</a>
         </li>
         <li>
           <a class="page-scroll" href="terms-conditions.php">Terms and Conditions</a>
         </li>
         <li>
-          <a class="page-scroll" href="#contact">Contact</a>
+          <a class="page-scroll" href="<?php if(!strpos($_SERVER['SCRIPT_NAME'], 'index.php')): ?>index.php<?php endif;?>#contact">Contact</a>
         </li>
       </ul>
     </div>
