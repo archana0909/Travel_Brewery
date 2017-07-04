@@ -129,7 +129,7 @@
           <div class="row">
             <div class="col-lg-12 text-center">
               <h2 class="section-heading">UPCOMING TRIPS</h2>
-              <h3 class="section-heading"><a href="eastern-europe-trip-details.php" target="_blank">THE EAST EUROPEAN SOJOURN</a></h3>
+              <h3 class="section-heading"><a href="eastern-europe-trip-details.php">THE EAST EUROPEAN SOJOURN</a></h3>
               <hr class="primary">
             </div>
           </div>
@@ -275,7 +275,7 @@
       <hr class="primary">
       <p>Explore and experience Eastern and Central Europe like a local. Enjoy Affordable European Vacations
         at unbelievable prices.</p> <p>Don't believe us? Check out the trip details. Limited slots on offer!</p>
-        <a href="eastern-europe-trip-details.php" target="_blank"class="btn btn-default btn-xl sr-button">Trip Details</a>
+        <a href="eastern-europe-trip-details.php" class="btn btn-default btn-xl sr-button">Trip Details</a>
       </div>
     </div>
   </aside>
