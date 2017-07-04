@@ -177,8 +177,7 @@
         <div class="container-fluid">
           <div class="row no-gutter popup-gallery">
             <div class="col-lg-4 col-sm-6 portfolio-box">
-              <!-- <a href="img/cityimages/berlin_1.jpg" class="portfolio-box"> -->
-              <img src="img/cityimages/berlin_1.jpg" class="img-responsive" alt="">
+              <img src="img/cityimages/tn_berlin_1.jpg" class="img-responsive" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -192,8 +191,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6 portfolio-box">
-            <!-- <a href="img/cityimages/budapest_1.jpg" target="_blank" class="portfolio-box"> -->
-            <img src="img/cityimages/budapest_1.jpg" class="img-responsive" alt="">
+
+            <img src="img/cityimages/tn_budapest_1.jpg" class="img-responsive" alt="">
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
@@ -207,8 +206,7 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-box">
-          <!-- <a href="img/cityimages/prague_1.jpg" target="_blank" class="portfolio-box"> -->
-          <img src="img/cityimages/prague_1.jpg" class="img-responsive" alt="">
+          <img src="img/cityimages/tn_prague_1.jpg" class="img-responsive" alt="">
           <div class="portfolio-box-caption">
             <div class="portfolio-box-caption-content">
               <div class="project-category text-faded">
@@ -222,8 +220,8 @@
         </a>
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-box">
-        <!-- <a href="img/cityimages/bratislava_1.jpg" target="_blank" class="portfolio-box"> -->
-        <img src="img/cityimages/bratislava_1.jpg" class="img-responsive" alt="">
+
+        <img src="img/cityimages/tn_bratislava_1.jpg" class="img-responsive" alt="">
         <div class="portfolio-box-caption">
           <div class="portfolio-box-caption-content">
             <div class="project-category text-faded">
@@ -237,8 +235,8 @@
       </a>
     </div>
     <div class="col-lg-4 col-sm-6 portfolio-box">
-      <!-- <a href="img/cityimages/vienna_1.jpg" target="_blank" class="portfolio-box"> -->
-      <img src="img/cityimages/vienna_1.jpg" class="img-responsive" alt="">
+
+      <img src="img/cityimages/tn_vienna_1.jpg" class="img-responsive" alt="">
       <div class="portfolio-box-caption">
         <div class="portfolio-box-caption-content">
           <div class="project-category text-faded">
@@ -252,8 +250,8 @@
     </a>
   </div>
   <div class="col-lg-4 col-sm-6 portfolio-box">
-    <!-- <a href="img/cityimages/india_1.jpg"  target="_blank" class="portfolio-box popup"> -->
-    <img src="img/cityimages/india_1.jpg" class="img-responsive" alt="">
+
+    <img src="img/cityimages/tn_india_1.jpg" class="img-responsive" alt="">
     <div class=" portfolio-box-caption">
       <div class="portfolio-box-caption-content">
         <div class="project-category text-faded">

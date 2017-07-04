@@ -67,7 +67,7 @@
         </div>
         <div class="row">
           <div class="col-sm-6 col-md-4">
-            <img class="round-img" src="img/cityimages/berlin_2.jpg"/>
+            <img class="round-img" src="img/cityimages/tn_berlin_2.jpg"/>
 
             <div class="text-center">
               <h4 class="text-uppercase">BERLIN</h4>
@@ -76,7 +76,7 @@
           </div>
           <div class="col-sm-6 col-md-4">
 
-            <img class="round-img" src="img/cityimages/prague_2.jpg">
+            <img class="round-img" src="img/cityimages/tn_prague_2.jpg">
             <div class="text-center">
               <h4 class="text-uppercase">Prague</h4>
               <p> 3 Nights</p>
@@ -84,7 +84,7 @@
           </div>
           <div class="col-sm-6 col-md-4 ">
 
-            <img class="round-img" src="img/cityimages/vienna_2.jpg">
+            <img class="round-img" src="img/cityimages/tn_vienna_2.jpg">
             <div class="text-center">
               <h4 class="text-uppercase">Vienna</h4>
               <p> 2 Nights</p>
@@ -92,14 +92,14 @@
           </div>
           <div class="col-sm-6 col-md-4 col-md-offset-2">
 
-            <img class="round-img" src="img/cityimages/bratislava_2.jpg">
+            <img class="round-img" src="img/cityimages/tn_bratislava_2.jpg">
             <div class="text-center">
               <h4 class="text-uppercase">Bratislava</h4>
               <p> 1 Night</p>
             </div>
           </div>
           <div class="col-sm-6 col-md-4">
-            <img class="round-img" src="img/cityimages/budapest_6.jpg">
+            <img class="round-img" src="img/cityimages/tn_budapest_6.jpg">
             <div class="text-center">
               <h4 class="text-uppercase">BUDAPEST</h4>
               <p> 3 Nights</p>
