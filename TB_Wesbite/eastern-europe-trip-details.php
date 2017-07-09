@@ -225,6 +225,8 @@
 </div>
 </div>
 </section>
+<?php include 'footer.php';?>
+
 <!-- --section end -- -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <!-- Bootstrap Core JavaScript -->
