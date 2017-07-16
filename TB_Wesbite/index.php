@@ -11,8 +11,7 @@
 
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="Le Pension Group">
-  <title>Travel Brewery </title>
-  <!-- jQuery -->
+  <title>Travel Brewery | International Group Tours,Customized Holiday Packages, Personalized Vacations,International Honeymoon Destinations well within your budget</title>
   <!-- Bootstrap Core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom Fonts -->
