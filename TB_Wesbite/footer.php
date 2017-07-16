@@ -1,6 +1,6 @@
 <footer class="bg-dark">
   <section id="main-footer">
-      <div class="footer-left">
+    <div class="container">
       <div class="col-sm-3">
         <div>
           <h3><span>TRAVEL&nbsp;</span><span class="footer-logo">BREWERY</span></h3>
