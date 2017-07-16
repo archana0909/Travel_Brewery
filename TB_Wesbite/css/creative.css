@@ -1,8 +1,4 @@
-/*!
-* Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
-* Copyright 2013-2016 Start Bootstrap
-* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
-*/
+
 html,
 body {
   height: 100%;
@@ -508,4 +504,55 @@ body {
 {
   color: #fa6a5d;
 
+}
+.footer-logo
+{
+  color:#3BB5C9;
+}
+
+footer
+{
+  position: absolute;
+  width:100%;
+}
+
+#main-footer .contactnumber {
+    color: #9b9b9b;
+    margin-top: 10px;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+#main-footer .copyright
+{
+  font-weight: lighter;
+  font-size: 1em;
+}
+#main-footer .social {
+    margin-bottom: 10px;
+    color: #9b9b9b;
+}
+
+ul .inline-list-style {
+    list-style: none;
+}
+
+.list_style {
+  list-style-type: none;
+}
+#main-footer .column
+{
+  margin-top:20px;
+}
+
+.nav-head {
+    margin-bottom: 20px !important;
+    color: #cccccc;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+#main-footer li {
+    margin-bottom: 0.5em;
 }
