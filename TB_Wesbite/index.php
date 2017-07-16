@@ -7,14 +7,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="description" content="Creating custom Europe tours for backpackers and budget tourists and group tours" />
+  <meta http-equiv="description" content="The Best Travel Website for Custom International Tours for backpackers and budget tourists ,family tours and honeymoon destinations and group tours , explore and enjoy meeting new people on your journey with TravelBrewery" />
+
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="Le Pension Group">
   <title>Travel Brewery </title>
   <!-- jQuery -->
   <!-- Bootstrap Core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
   <!-- Custom Fonts -->
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet" type="text/css">
@@ -23,7 +23,6 @@
   <!-- Theme CSS -->
   <link href="css/creative.css" rel="stylesheet">
 </head>
-
 <body>
   <header>
     <?php include 'header.php';?>
@@ -61,15 +60,15 @@
       </div>
       <div class="icon-aboutus row">
         <div class="col-lg-4 text-center">
-          <img class="img-icon" src="img/icons/snorkel.png">
+          <img class="img-icon" src="img/icons/snorkel.png" title="Snorkel" alt="Image of a snorkel, Explore the hidden gems of the city with guided tours and suggestions by travel brewery" >
           <h4>EXPLORE</h4>
         </div>
         <div class="col-lg-4 text-center">
-          <img class="img-icon" src="img/icons/balloon.png">
+          <img class="img-icon" src="img/icons/balloon.png" title="Hot Air Ballon" alt="Image of Hot Air ballon, Experience the city like a local">
           <h4>EXPERIENCE</h4>
         </div>
         <div class="col-lg-4 text-center">
-          <img class="img-icon" src="img/icons/drink.png">
+          <img class="img-icon" src="img/icons/drink.png" title="Drink" alt="Enjoy the evenings with new friends you make on the tour ">
           <h4>ENJOY</h4>
         </div>
 
@@ -123,7 +122,6 @@
           </div>
         </div>
       </section>
-
       <section id="tours">
         <div class="container">
           <div class="row">
@@ -177,7 +175,7 @@
         <div class="container-fluid">
           <div class="row no-gutter popup-gallery">
             <div class="col-lg-4 col-sm-6 portfolio-box">
-              <img src="img/cityimages/tn_berlin_1.jpg" class="img-responsive" alt="">
+              <img src="img/cityimages/tn_berlin_1.jpg" class="img-responsive" title="Berlin Germany" alt="Memorial to the Murdered Jews of Europe in Berlin Germany, is a memorial in Berlin to the Jewish victims of the Holocaust, designed by architect Peter Eisenman and engineer Buro Happold">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -192,7 +190,7 @@
           </div>
           <div class="col-lg-4 col-sm-6 portfolio-box">
 
-            <img src="img/cityimages/tn_budapest_1.jpg" class="img-responsive" alt="">
+            <img src="img/cityimages/tn_budapest_1.jpg" class="img-responsive" title="Budapest Hungary" alt="Evening View of Chain Bridge in Budapest Hungary that spans the river Danube between Buda and Pest">
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
@@ -206,7 +204,7 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-box">
-          <img src="img/cityimages/tn_prague_1.jpg" class="img-responsive" alt="">
+          <img src="img/cityimages/tn_prague_1.jpg" class="img-responsive" title="Prague Castle" alt="Evening view of Prague Castle and Charles Bridge, most visited tourist attraction in Prague,Czech Republic">
           <div class="portfolio-box-caption">
             <div class="portfolio-box-caption-content">
               <div class="project-category text-faded">
@@ -220,8 +218,7 @@
         </a>
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-box">
-
-        <img src="img/cityimages/tn_bratislava_1.jpg" class="img-responsive" alt="">
+        <img src="img/cityimages/tn_bratislava_1.jpg" class="img-responsive" title="Bratislava" alt="Old town square in Bratislava lit up with lights in the evening">
         <div class="portfolio-box-caption">
           <div class="portfolio-box-caption-content">
             <div class="project-category text-faded">
@@ -235,8 +232,7 @@
       </a>
     </div>
     <div class="col-lg-4 col-sm-6 portfolio-box">
-
-      <img src="img/cityimages/tn_vienna_1.jpg" class="img-responsive" alt="">
+      <img src="img/cityimages/tn_vienna_1.jpg" class="img-responsive" title="Vienna"alt="Amazing view of famous Schloss Belvedere, built by Johann Lukas von Hildebrandt">
       <div class="portfolio-box-caption">
         <div class="portfolio-box-caption-content">
           <div class="project-category text-faded">
@@ -250,8 +246,7 @@
     </a>
   </div>
   <div class="col-lg-4 col-sm-6 portfolio-box">
-
-    <img src="img/cityimages/tn_india_1.jpg" class="img-responsive" alt="">
+    <img src="img/cityimages/tn_india_1.jpg" class="img-responsive" title="India" alt="Leh Ladakh India">
     <div class=" portfolio-box-caption">
       <div class="portfolio-box-caption-content">
         <div class="project-category text-faded">
@@ -267,7 +262,6 @@
 </div>
 </div>
 </section>
-
 <aside class="bg-dark">
   <div class="container text-center">
     <div class="call-to-action">
@@ -300,7 +294,7 @@
     </div>
   </section>
   <?php include 'footer.php';?>
-
+  <!-- jQuery -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <!-- Bootstrap Core JavaScript -->
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -308,7 +302,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
   <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
   <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
   <!-- Theme JavaScript -->
   <script src="js/creative.js"></script>
 </body>

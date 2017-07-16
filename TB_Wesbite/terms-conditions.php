@@ -9,8 +9,8 @@
   <meta http-equiv="description" content="Creating custom Europe tours for backpackers and budget tourists and group tours" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="Le Pension Group">
-  <title>Travel Brewery </title>
-  <!-- jQuery -->
+  <title>Travel Brewery | Terms and Conditions for every tour by Travel Brewery</title>
+
   <!-- Bootstrap Core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -24,9 +24,7 @@
 </head>
 
 <body>
-
     <?php include 'header.php';?>
-
 <section id="terms-conditions-header">
   <div class="container">
     <div class="row outline-row">
@@ -85,7 +83,7 @@
 
 </div>
 <?php include 'footer.php';?>
-
+<!-- jQuery -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <!-- Bootstrap Core JavaScript -->
 <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
