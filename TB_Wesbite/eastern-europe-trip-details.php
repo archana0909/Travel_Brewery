@@ -6,10 +6,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="description" content="Eastern Europe Tour Details ,Group Travel Tour starting on 22nd December 2017 , celebrate this New Year in Budapest" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="Le Pension Group">
   <title>Travel Brewery | Eastern Europe Tour for December 2017 - Trip Itinerary and Package Details | Inclusions and Exclusions in the trip itinerary </title>
+  <meta name="description" content="Eastern Europe Tour Details ,Group Travel Tour starting on 22nd December 2017 , celebrate this New Year in Budapest" />
+  <meta name="Keywords" content=" Europe Travel packages,Budapest,Vienna, Prague , Travel offers ,best deals for Europe Travel,Affordable European Vacation, International Group Tours ,Customized Holiday Packages, Personalized Vacations, International Honeymoon Destinations,  backpack group tours, backping europe ,travel websites india,travel planning  "/>
 
   <!-- Bootstrap Core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -76,7 +77,7 @@
           </div>
           <div class="col-sm-6 col-md-4">
 
-            <img class="round-img" src="img/cityimages/tn_prague_2.jpg" ttile="Prague Castle" alt="View from the top of Prague Castle, Must visit places in Prague ,Czech Republic">
+            <img class="round-img" src="img/cityimages/tn_prague_2.jpg" title="Prague Castle" alt="View from the top of Prague Castle, Must visit places in Prague ,Czech Republic">
             <div class="text-center">
               <h4 class="text-uppercase">Prague</h4>
               <p> 3 Nights</p>
@@ -84,7 +85,7 @@
           </div>
           <div class="col-sm-6 col-md-4 ">
 
-            <img class="round-img" src="img/cityimages/tn_vienna_2.jpg" ttile="Stephansplatz -Vienna" alt="View of the touristy and lively Stephansplatz in Vienna, A must go place for travellers in Vienna">
+            <img class="round-img" src="img/cityimages/tn_vienna_2.jpg" title=""="Stephansplatz -Vienna" alt="View of the touristy and lively Stephansplatz in Vienna, A must go place for travellers in Vienna">
             <div class="text-center">
               <h4 class="text-uppercase">Vienna</h4>
               <p> 2 Nights</p>
@@ -92,14 +93,14 @@
           </div>
           <div class="col-sm-6 col-md-4 col-md-offset-2">
 
-            <img class="round-img" src="img/cityimages/tn_bratislava_2.jpg" ttile="Bratislava Castle" alt="View of the architecture of Bratislava Castle, the view from top overlook River Danube, a small hike to the top of the Castle in Bratislava is worth  the view for any traveller">
+            <img class="round-img" src="img/cityimages/tn_bratislava_2.jpg" title=""="Bratislava Castle" alt="View of the architecture of Bratislava Castle, the view from top overlooking River Danube, a small hike to the top of the Castle in Bratislava is worth  the view for any traveller">
             <div class="text-center">
               <h4 class="text-uppercase">Bratislava</h4>
               <p> 1 Night</p>
             </div>
           </div>
           <div class="col-sm-6 col-md-4">
-            <img class="round-img" src="img/cityimages/tn_budapest_6.jpg" ttile="Budapest Architecture" alt="View of a Cathedral in Budapest on the eve of Christmas,the city lights up to welcome its tourists during Christmas and New Year ">
+            <img class="round-img" src="img/cityimages/tn_budapest_6.jpg" title=""="Budapest Architecture" alt="View of a Cathedral in Budapest on the eve of Christmas,the city lights up to welcome its tourists during Christmas and New Year ">
             <div class="text-center">
               <h4 class="text-uppercase">BUDAPEST</h4>
               <p> 3 Nights</p>
@@ -126,22 +127,22 @@
         </div>
         <div class="row outline-row">
 
-        <div class="col-sm-3">
+        <!-- <div class="col-sm-3">
           <p><strong>Early Bird Discount</strong> for first 4 bookings</p>
           <h4>56,000/- INR +Taxes</h4>
 
-        </div>
-        <div class="col-sm-3">
+        </div> -->
+        <div class="col-sm-4">
           <p>Until <strong>22nd September 2017</strong>-90 days before Departure</p>
           <h4>60,000/- INR +Taxes</h4>
 
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <p>Until <strong>22nd November 2017 </strong>-30 days before departure</p>
           <h4>65,000/- INR +Taxes</h4>
 
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <p>Between <strong>22nd November -30th November 2017</strong></p>
           <h4>75,000/- INR +Taxes</h4>
 

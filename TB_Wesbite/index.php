@@ -7,11 +7,12 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="description" content="The Best Travel Website for Custom International Tours for backpackers and budget tourists ,family tours and honeymoon destinations and group tours , explore and enjoy meeting new people on your journey with TravelBrewery" />
 
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv=""="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="Le Pension Group">
-  <title>Travel Brewery | International Group Tours,Customized Holiday Packages, Personalized Vacations,International Honeymoon Destinations well within your budget</title>
+  <title>Travel Brewery | Customized Holiday Packages, Affordable Group Tours for Travellers,International Honeymoon Destinations well within your budget</title>
+  <meta name="description" content="The Best Travel Website for Custom International Tours for backpackers and budget tourists ,family tours and honeymoon destinations and group tours , explore and enjoy meeting new people on your journey with TravelBrewery" />
+  <meta name="Keywords" content=" Affordable European Vacation, International Group Tours ,Customized Holiday Packages, Personalized Vacations, International Honeymoon Destinations,  backpack group tours, backping europe ,travel websites india,travel planning  "/>
   <!-- Bootstrap Core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom Fonts -->

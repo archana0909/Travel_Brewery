@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>http://travelbrewery.com/</loc>
+    <image:image>
+      <image:loc>http://travelbrewery.com/img/header3.jpg</image:loc>
+      <image:geo_location>Europe
+      </image:geo_location>
+      <image:caption>Tourists on the streets of Europe
+      </image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>http://travelbrewery.com/img/cityimages/tn_berlin_1.jpg</image:loc>
+      <image:geo_location>Berlin, Germany
+      </image:geo_location>
+      <image:caption>Memorial to the Murdered Jews of Europe in Berlin Germany,
+        is a memorial in Berlin to the Jewish victims of the Holocaust, designed by architect Peter Eisenman and engineer Buro Happold
+      </image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://travelbrewery.com/img/cityimages/tn_budapest_1.jpg</image:loc>
+      <image:geo_location>Chain Bridge , Budapest, Hungary
+      </image:geo_location>
+      <image:caption>Evening View of Chain Bridge in Budapest Hungary that spans the river Danube between Buda and Pest
+      </image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://travelbrewery.com/img/cityimages/tn_prague_1.jpg</image:loc>
+      <image:geo_location>Prague Castle , Prague ,Czech Republic
+      </image:geo_location>
+      <image:caption>Evening view of Prague Castle and Charles Bridge, most visited tourist attraction in Prague,Czech Republic
+      </image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://travelbrewery.com/img/cityimages/tn_bratislava_1.jpg</image:loc>
+      <image:geo_location>Bratislava, Slovakia
+      </image:geo_location>
+      <image:caption>Old town square in Bratislava lit up with lights in the evening
+      </image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://travelbrewery.com/img/cityimages/tn_vienna_1.jpg</image:loc>
+      <image:geo_location>Vienna,Austria
+      </image:geo_location>
+      <image:caption>Amazing view of famous Schloss Belvedere, built by Johann Lukas von Hildebrandt
+      </image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://travelbrewery.com/img/cityimages/tn_india_1.jpg</image:loc>
+      <image:geo_location>Leh Ladakh India
+      </image:geo_location>
+      <image:caption>Leh Ladakh India
+      </image:caption>
+    </image:image>
+    </url>
+
+    <url>
+      <loc>http://travelbrewery.com/eastern-europe-trip-details.php</loc>
+    <image:image>
+      <image:loc>http://travelbrewery.com/img/cityimages/budapest_5.jpg</image:loc>
+      <image:geo_location>Budapest
+      </image:geo_location>
+      <image:caption>
+      </image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://travelbrewery.com/img/cityimages/tn_berlin_2.jpg</image:loc>
+      <image:geo_location>Berlin, Germany
+      </image:geo_location>
+      <image:caption>Berlin - Castle Charlottenburg , Places to visit in Berlin for 2 Days
+      </image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://travelbrewery.com/img/cityimages/tn_bratislava_2.jpg</image:loc>
+      <image:geo_location>Bratislava
+      </image:geo_location>
+      <image:caption>View of the architecture of Bratislava Castle, the view from top overlooking River Danube
+      </image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://travelbrewery.com/img/cityimages/tn_budapest_6.jpg</image:loc>
+      <image:geo_location>Budapest, Hungary
+      </image:geo_location>View of a Cathedral in Budapest on the eve of Christmas,the city lights up to welcome its tourists during Christmas and New Year
+      <image:caption>
+      </image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://travelbrewery.com/img/cityimages/tn_prague_2.jpg</image:loc>
+      <image:geo_location>Prague Czech Republic
+      </image:geo_location>
+      <image:caption>View from the top of Prague Castle, Must visit places in Prague ,Czech Republic
+
+      </image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://travelbrewery.com/img/cityimages/tn_vienna_2.jpg</image:loc>
+      <image:geo_location>Vienna, Austria
+      </image:geo_location>
+      <image:caption>View of the touristy and lively Stephansplatz in Vienna, A must go place for travellers in Vienna
+      </image:caption>
+    </image:image>
+  </url>
+</urlset>
