@@ -68,4 +68,56 @@
         }
     });
 
+
+
+
+//Form Validation
+
+$('#signup-form').bootstrapValidator({
+    trigger: 'blur',
+    fields: {
+        Name: {
+            validators: {
+                notEmpty: {
+                    message: 'Your  Name is required'
+                },
+                regexp: {
+                    regexp: /^[a-zA-Z ]+$/,
+                    message: 'Your name cannot have numbers or symbols'
+                }
+            }
+        },
+        Email: {
+            validators: {
+                notEmpty: {
+                    message: 'The email is required'
+                },
+                emailAddress: {
+                    message: 'The input is not a valid email address'
+                }
+            }
+        },
+        Phone: {
+            validators: {
+                notEmpty: {
+                    message: 'The phone number is required'
+                },
+                regexp: {
+                    regexp: /^(?:(?:\+|0{0,2})91(\s*[\-]\s*)?|[0]?)?[789]\d{9}$/,
+                    message: 'The input is not a valid Indian phone number'
+                }
+            }
+        }
+    }
+})
+.on('error.field.bv', '[name="Phone"]', function(e, data){
+    // change the data-bv-trigger value to keydown
+  //  $(e.target).attr('data-bv-trigger','keydown');
+    // destroy the plugin
+    // console.info(data.bv.getOptions());
+    data.bv.destroy();
+    // console.info(data.bv.getOptions());
+    // initialize the plugin
+    $('#signup-form').bootstrapValidator(data.bv.getOptions());
+});
 })(jQuery); // End of use strict
