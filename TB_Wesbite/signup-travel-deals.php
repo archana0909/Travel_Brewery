@@ -10,7 +10,7 @@
   <meta name="author" content="Le Pension Group">
   <title>Travel Brewery |Sign up For best Travel Package Deals</title>
   <meta name="description" content="Terms And Conditions,Eastern Europe Tour Details ,Group Travel Tour starting on 22nd December 2017" />
-  <meta name="Keywords" content=" Europe Travel packages,Budapest,Vienna, Prague , Travel offers ,best deals for Europe Travel,Affordable European Vacation, International Group Tours ,Customized Holiday Packages, Personalized Vacations, International Honeymoon Destinations,  backpack group tours, backping europe ,travel websites india,travel planning  "/>
+  <meta name="Keywords" content=" Signup ,deals ,offer on europe travel ,Europe Travel packages,Budapest,Vienna, Prague , Travel offers ,best deals for Europe Travel,Affordable European Vacation, International Group Tours ,Customized Holiday Packages, Personalized Vacations, International Honeymoon Destinations,  backpack group tours, backping europe ,travel websites india,travel planning  "/>
   <!-- Bootstrap Core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -18,6 +18,7 @@
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet" type="text/css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/css/bootstrapValidator.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
   <!-- Theme CSS -->
@@ -52,7 +53,7 @@
           <img class="img-responsive" src="../img/tourists.jpg" />
         </div>
 
-        <div class="col-sm-4 signup-column" style="background-color:white">
+        <div class="col-sm-4 signup-column">
           <h2>Sign up now!! </h2>
           <h4>To get Flat Rs3500 discount on our upcoming European Sujourn tour</h4>
           <br>
@@ -86,26 +87,57 @@
     </div>
   </section>
 
-  <!-- ------ This section consists of the points to generate interest for users to sign up ------ -->
-  <!-- <section id="tour-features-east-europe" class="bg-primary">
-  <div class="container">
-  <div class="row">
-</div>
-</div>
-</section> -->
+  <!-- ------ this section consists of the points to generate interest for users to sign up ------ -->
+  <section id="tour-features-east-europe">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3 class="offer-heading">We Offer the Best Prices</h3>
+          <p>Enjoy the very best of East &amp; Central Europe during our 12 Day Europe Vacation tour through 5 countries,
+            expertly planned and designed by travel enthusiasts at The Travel Brewery
+          <br>
+          <strong>The Trip begins on 22nd December 2017 !!</strong></p>
+          </div>
+          <div class="col-sm-8">
+            <!--Tesetimonials here-->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-5"> <!--Side image round one-->
+            <img class="img-style" src="img/world-travel.jpg" title="Travel world with Travel Brewery" alt="Reasons why you should travel with Travel Brewery"/>
+          </div>
+          <div class="col-sm-7">
+            <!--Reasons Why you should visit Europe-->
+            <h3 class="offer-heading text-center">6 Reasons to Join Travel Brewery’s East European Backpacking Trip</h3>
+            <ul class="inline-list-style">
+              <li class="list-style">Explore 5 countries including Germany, Czech Republic, Austria, Bratislava and Hungary in 12 days</li>
 
+              <li class="list-style">Celebrate Christmas in the beautiful city of Prague &amp; New Year’s in the party capital of the world - Budapest</li>
 
-<?php include 'footer.php';?>
-<!-- jQuery -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<!-- Bootstrap Core JavaScript -->
-<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!-- Plugin JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-<script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js"></script>
-<!--< Theme JavaScript -->
-<script src="js/creative.js"></script>
-</body>
-</html>
+              <li class="list-style">Trip includes a Travel Buddy who will travel along to provide trip assistance during your tour</li>
+
+              <li class="list-style">Travel with a group of diverse individuals, make new friends and plan up future vacations</li>
+
+              <li class="list-style">Enjoy full freedom to self explore every city, no more fixed schedules and itineraries</li>
+
+              <li class="list-style">Price includes stay, airport transfers, breakfast and full inter city and intra city travel</li>
+
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section> <?php include 'footer.php';?>
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js"></script>
+    <!--< Theme JavaScript -->
+    <script src="js/creative.js"></script>
+  </body>
+  </html>

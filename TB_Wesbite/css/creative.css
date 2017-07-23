@@ -517,11 +517,11 @@ footer
 }
 
 #main-footer .contactnumber {
-    color: #9b9b9b;
-    margin-top: 10px;
-    font-size: 1.5em;
-    font-weight: 300;
-    margin-bottom: 10px;
+  color: #9b9b9b;
+  margin-top: 10px;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-bottom: 10px;
 }
 #main-footer .copyright
 {
@@ -529,12 +529,12 @@ footer
   font-size: 1em;
 }
 #main-footer .social {
-    margin-bottom: 10px;
-    color: #9b9b9b;
+  margin-bottom: 10px;
+  color: #9b9b9b;
 }
 
 ul .inline-list-style {
-    list-style: none;
+  list-style: none;
 }
 
 .list_style {
@@ -546,42 +546,50 @@ ul .inline-list-style {
 }
 
 .nav-head {
-    margin-bottom: 20px !important;
-    color: #cccccc;
-    font-size: 1.5em;
-    font-weight: 300;
-    text-transform: uppercase;
+  margin-bottom: 20px !important;
+  color: #cccccc;
+  font-size: 1.5em;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 #main-footer li {
-    margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 #signup-banner
 {
-padding:0px;
+  background-color: #c3ecf1;
+  padding:0px;
 }
-
-@media (max-width: 1024px) and (min-width: 768px)
+#signup-banner h2
+{
+  color: #ee4b28;
+  text-align: center;
+  text-transform: uppercase;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px)
 {
   #signup-banner h4
   {
     font-size: 1em;
   }
   .signup-column
-{
-  padding-left:25px!important;
-  padding-right:20px!important;
-}
+  {
+    padding-left:20px!important;
+    padding-right:20px!important;
+  }
 }
 
 @media (min-width: 768px)
 {
-#signup-banner .signup-imgbanner
-{
-  padding: 0px;
-  max-height: 500px;
-}
+  #signup-banner .signup-imgbanner
+  {
+    padding: 0px;
+    max-height: 500px;
+    overflow: hidden;
+  }
 }
 
 #signup-banner .signup-imgbanner img{
@@ -592,8 +600,30 @@ padding:0px;
 {
   padding-left: 0px;
 }
-.signup-column
+@media (max-width:768px) , (min-width:1024px)
 {
-  padding-left: 75px;
+  .signup-column
+{
+  padding-left: 60px;
   padding-right: 60px;
+}
+}
+
+#tour-features-east-europe .offer-heading
+{
+  font-family: 'Satisfy', cursive;
+  color:#3BB5C9;
+}
+#tour-features-east-europe .img-style
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+
+}
+
+#tour-features-east-europe li
+{
+  font-size: 1.2em;
 }
