@@ -23,27 +23,13 @@
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
   <!-- Theme CSS -->
   <link href="css/creative.css" rel="stylesheet">
+  <!-- jQuery -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <?php
-  if(isset($_POST['signup-button'])){
-    $to = "info@travelbrewery.com"; // this is your Email address
-    $from = $_POST['Email']; // this is the sender's Email address
-    $name = $_POST['Name'];
-    $phone =$_POST['Phone'];
 
-    $subject = "Sign Up Details for Interested Customer";
-
-    $message = $name . "showed interest in your East European Sojourn Tour \n\n Contact Details \n\n\ Email: " .$from . "\n\n Contact Number:" . $phone ."\n\n";
-
-
-    $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
-    mail($to,$subject,$message,$headers);
-
-    // You can also use header('Location: thank_you.php'); to redirect to another page.
-  }
-  ?>
 
   <!-- ------ This section consists of the sign up form for leads ------ -->
   <section id="signup-banner">
@@ -55,9 +41,10 @@
 
         <div class="col-sm-4 signup-column">
           <h2>Sign up now!! </h2>
-          <h4>To get Flat Rs3500 discount on our upcoming European Sujourn tour</h4>
+          <h4>To get Flat Rs3500 discount on our upcoming European Sujourn Backpacking Trip</h4>
           <br>
-          <form id="signup-form" method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+
+          <form id="signup-form"  method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
             <div class="form-group ">
               <label for="example-text-input" class="col-2 col-form-label">Name <span>* </span></label>
               <div class="col-10">
@@ -76,8 +63,9 @@
                 <input class="form-control" type="text" name="Phone"  placeholder="Mobile Number(+91-xxxxx-xxxxx)" id="tel-input">
               </div>
             </div>
-            <div class="form-group text-center ">
-              <input type="submit" name="signup-button" class="btn btn-primary " value="Unlock the Deal"></input>
+            <div class="text-center ">
+              <button type="button" name="signup-button"  id="signup-button" class="btn btn-primary " disabled>Unlock the Deal</button>
+
             </div>
             <br>
           </form>
@@ -95,8 +83,8 @@
           <h3 class="offer-heading">We Offer the Best Prices</h3>
           <p>Enjoy the very best of East &amp; Central Europe during our 12 Day Europe Vacation tour through 5 countries,
             expertly planned and designed by travel enthusiasts at The Travel Brewery
-          <br>
-          <strong>The Trip begins on 22nd December 2017 !!</strong></p>
+            <br>
+            <strong>The Trip begins on 22nd December 2017 !!</strong></p>
           </div>
           <div class="col-sm-8">
             <!--Tesetimonials here-->
@@ -127,17 +115,39 @@
 
         </div>
       </div>
-    </section> <?php include 'footer.php';?>
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js"></script>
-    <!--< Theme JavaScript -->
-    <script src="js/creative.js"></script>
-  </body>
-  </html>
+
+        </section> <?php include 'footer.php';?>
+        <!-- Itinerary Redirect Modal -->
+        <div class="modal fade" id="itineraryModal" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <button type="button" class="close resetForm" data-dismiss="modal" aria-label="Close" >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="modal-title" id="ModalLongTitle">Congratulations!! You just Availed Rs3500/- Discount</h3>
+              </div>
+              <div class="modal-body text-center">
+                <p> Now Check out the Itinerary by following the link below
+                  <br/>
+                  <a href="eastern-europe-trip-details.php">East European Sujourn Backpacking Tour Itinerary</a>
+                </p>
+                  </div>
+                  <div class="modal-footer">
+
+                    <button type="button" class="btn btn-secondary resetForm" data-dismiss="modal" >Close</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        <!-- Plugin JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+        <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js"></script>
+        <!--< Theme JavaScript -->
+        <script src="js/creative.js"></script>
+      </body>
+      </html>

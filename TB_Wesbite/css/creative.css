@@ -627,3 +627,25 @@ ul .inline-list-style {
 {
   font-size: 1.2em;
 }
+
+#signup-button:disabled {
+    background-color: #222222;
+}
+
+.modal-content
+{
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 0px;
+}
+.modal-header
+{
+  border-bottom:none!important;
+}
+.modal-body
+{
+  color:#f96a36;
+}
+.modal-footer
+{
+  border-top: :none !important;
+}
