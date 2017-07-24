@@ -9,7 +9,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="Le Pension Group">
   <title>Travel Brewery |Sign up For best Travel Package Deals</title>
-  <meta name="description" content="Sign Up with Travel Brewery to unlock discount on our European Sujourn Backpacking Trip starting on 22nd December 2017" />
+  <meta name="description" content="Sign Up with Travel Brewery to unlock discount on our European Sojourn Backpacking Trip starting on 22nd December 2017" />
   <meta name="Keywords" content=" Signup ,deals ,offer on europe travel ,Europe Travel packages,Budapest,Vienna, Prague , Travel offers ,best deals for Europe Travel,Affordable European Vacation, International Group Tours ,Customized Holiday Packages, Personalized Vacations, International Honeymoon Destinations,  backpack group tours, backping europe ,travel websites india,travel planning  "/>
   <!-- Bootstrap Core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -41,7 +41,7 @@
 
         <div class="col-sm-4 signup-column">
           <h2>Sign up now!! </h2>
-          <h4>To get Flat Rs3500 discount on our upcoming European Sujourn Backpacking Trip</h4>
+          <h4>To get Flat Rs3500 discount on our upcoming European Sojourn Backpacking Trip</h4>
           <br>
 
           <form id="signup-form"  method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
@@ -84,7 +84,9 @@
           <p>Enjoy the very best of East &amp; Central Europe during our 12 Day Europe Vacation tour through 5 countries,
             expertly planned and designed by travel enthusiasts at The Travel Brewery
             <br>
-            <strong>The Trip begins on 22nd December 2017 !!</strong></p>
+            <strong>The Trip begins on 22nd December 2017 !!</strong>
+            <br/>
+          <strong>Trip Cost after discount <span style="color:#ff8060"><s>Rs 60,000</s> </span><span style="color:#38bf57" >56,500 + GST </span></strong></p>
           </div>
           <div class="col-sm-7 col-sm-offset-1">
             <!--Tesetimonials here-->
@@ -140,7 +142,7 @@
           <div class="modal-body text-center">
             <p> Now Check out the Itinerary by following the link below
               <br/>
-              <a href="eastern-europe-trip-details.php">East European Sujourn Backpacking Tour Itinerary</a>
+              <a href="eastern-europe-trip-details.php">East European Sojourn Backpacking Tour Itinerary</a>
             </p>
           </div>
           <div class="modal-footer">
