@@ -9,7 +9,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="Le Pension Group">
   <title>Travel Brewery |Sign up For best Travel Package Deals</title>
-  <meta name="description" content="Terms And Conditions,Eastern Europe Tour Details ,Group Travel Tour starting on 22nd December 2017" />
+  <meta name="description" content="Sign Up with Travel Brewery to unlock discount on our European Sujourn Backpacking Trip starting on 22nd December 2017" />
   <meta name="Keywords" content=" Signup ,deals ,offer on europe travel ,Europe Travel packages,Budapest,Vienna, Prague , Travel offers ,best deals for Europe Travel,Affordable European Vacation, International Group Tours ,Customized Holiday Packages, Personalized Vacations, International Honeymoon Destinations,  backpack group tours, backping europe ,travel websites india,travel planning  "/>
   <!-- Bootstrap Core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -86,8 +86,18 @@
             <br>
             <strong>The Trip begins on 22nd December 2017 !!</strong></p>
           </div>
-          <div class="col-sm-8">
+          <div class="col-sm-7 col-sm-offset-1">
             <!--Tesetimonials here-->
+            <blockquote>
+              <h3 class="quote-heading">Conducted the tour Flawlessly !!
+                <span><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></span>
+              </h3>
+              <p class="quote-content">
+                Must say it was an excellent trip thanks to a very meticulous planning by Travel Brewery team.
+                They conducted the entire trip flawlessly.
+              </p>
+              <footer class="testimonial-footer"> Mr. Subodh from our Summer Tour 2017</footer>
+            </blockquote>
           </div>
         </div>
         <div class="row">
@@ -116,38 +126,38 @@
         </div>
       </div>
 
-        </section> <?php include 'footer.php';?>
-        <!-- Itinerary Redirect Modal -->
-        <div class="modal fade" id="itineraryModal" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header text-center">
-                <button type="button" class="close resetForm" data-dismiss="modal" aria-label="Close" >
-                  <span aria-hidden="true">&times;</span>
-                </button>
-                <h3 class="modal-title" id="ModalLongTitle">Congratulations!! You just Availed Rs3500/- Discount</h3>
-              </div>
-              <div class="modal-body text-center">
-                <p> Now Check out the Itinerary by following the link below
-                  <br/>
-                  <a href="eastern-europe-trip-details.php">East European Sujourn Backpacking Tour Itinerary</a>
-                </p>
-                  </div>
-                  <div class="modal-footer">
+    </section> <?php include 'footer.php';?>
+    <!-- Itinerary Redirect Modal -->
+    <div class="modal fade" id="itineraryModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <button type="button" class="close resetForm" data-dismiss="modal" aria-label="Close" >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h3 class="modal-title" id="ModalLongTitle">Congratulations!! You just Availed Rs3500/- Discount</h3>
+          </div>
+          <div class="modal-body text-center">
+            <p> Now Check out the Itinerary by following the link below
+              <br/>
+              <a href="eastern-europe-trip-details.php">East European Sujourn Backpacking Tour Itinerary</a>
+            </p>
+          </div>
+          <div class="modal-footer">
 
-                    <button type="button" class="btn btn-secondary resetForm" data-dismiss="modal" >Close</button>
+            <button type="button" class="btn btn-secondary resetForm" data-dismiss="modal" >Close</button>
 
-                  </div>
-                </div>
-              </div>
-            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <!-- Plugin JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-        <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-        <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js"></script>
-        <!--< Theme JavaScript -->
-        <script src="js/creative.js"></script>
-      </body>
-      </html>
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js"></script>
+    <!--< Theme JavaScript -->
+    <script src="js/creative.js"></script>
+  </body>
+  </html>
