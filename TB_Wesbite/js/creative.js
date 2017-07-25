@@ -148,6 +148,12 @@ var formIsValid=true;
         data: data,
         success: function(){
           $('#itineraryModal').modal('show');
+
+          fbq('track', 'Lead', {
+            value: 0.00,
+            currency: 'USD'
+          });
+
         }
       });
     }
