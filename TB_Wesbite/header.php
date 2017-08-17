@@ -25,6 +25,9 @@
           <a href="eastern-europe-trip-details.php">Trip Itinerary</a>
         </li>
         <li>
+          <a class="page-scroll" href="blogs.php">Blog</a>
+        </li>
+        <li>
           <a class="page-scroll" href="terms-conditions.php">Terms and Conditions</a>
         </li>
         <li>
