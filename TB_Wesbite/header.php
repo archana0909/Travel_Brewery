@@ -18,7 +18,7 @@
           <a class="page-scroll" href="<?php if(!strpos($_SERVER['SCRIPT_NAME'], 'index.php')): ?>index.php<?php endif;?>#services">Our Services</a>
         </li>
         <li>
-          <a class="page-scroll" href="<?php if(!strpos($_SERVER['SCRIPT_NAME'], 'index.php')): ?>index.php<?php endif;?>#tours">Tours</a>
+          <a class="page-scroll" href="<?php if(!strpos($_SERVER['SCRIPT_NAME'], 'index.php')): ?>index.php<?php endif;?>#iti-potfolio">Tours</a>
         </li>
 
         <li>

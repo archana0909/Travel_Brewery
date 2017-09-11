@@ -5,10 +5,20 @@ if($_POST){
   $from = $_POST['Email']; // this is the sender's Email address
 
   $phone =$_POST['Phone'];
+  $query=$_POST['Query'];
+if(isset($query)&&!empty($query))
 
-  $subject = "Sign Up Details for Interested Customer";
+  {$subject = "Query by an Interested Customer";
 
-  $message = $name . " \n showed interest in your East European Sojourn Tour \n\n Contact Details \n\n Name:" .$name ."\n\n Email: " .$from . "\n\n Contact Number:" . $phone ."\n\n";
+  $message = $name . " \n showed interest in your Itinerary for country \n\n Contact Details \n\n Name:" .$name ."\n\n Email: " .$from . "\n\n Contact Number:" . $phone ."\n\n"
+            "QUERY BY CUSTOMER \n" .$query;
+
+  }
+  else {
+    $subject = "Sign Up Details for Interested Customer";
+
+    $message = $name . " \n showed interest in your East European Sojourn Tour \n\n Contact Details \n\n Name:" .$name ."\n\n Email: " .$from . "\n\n Contact Number:" . $phone ."\n\n"
+  }
 
 
   $headers = "From:" . $from;

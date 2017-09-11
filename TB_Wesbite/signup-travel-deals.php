@@ -89,7 +89,7 @@
               </div>
             </div>
             <div class="text-center ">
-              <button type="button" name="signup-button"  id="signup-button" class="btn btn-primary " disabled>Unlock the Deal</button>
+              <button type="button" name="signup-button"  id="signup-button" class="btn btn-primary ">Unlock the Deal</button>
 
             </div>
             <br>

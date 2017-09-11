@@ -1,6 +1,9 @@
 (function($) {
   "use strict"; // Start of use strict
-var formIsValid=true;
+  var formIsValid=true;
+  $('.multi-item-carousel').carousel({
+    interval: false
+  });
   // jQuery for page scrolling feature - requires jQuery Easing plugin
   $(document).on('click', 'a.page-scroll', function(event) {
     var $anchor = $(this);
@@ -14,6 +17,19 @@ var formIsValid=true;
   $('body').scrollspy({
     target: '.navbar-fixed-top',
     offset: 51
+  });
+  $('.multi-item-carousel .item').each(function(){
+    var next = $(this).next();
+    if (!next.length) {
+      next = $(this).siblings(':first');
+    }
+    next.children(':first-child').clone().appendTo($(this));
+
+    if (next.next().length>0) {
+      next.next().children(':first-child').clone().appendTo($(this));
+    } else {
+      $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+    }
   });
 
   // Closes the Responsive Menu on Menu Item Click
@@ -32,6 +48,21 @@ var formIsValid=true;
   $('#euroTripNav').affix({
     offset: {
       top: 100
+    }
+  });
+  $(window).scroll(function () {
+    //if you hard code, then use console
+    //.log to determine when you want the
+    //nav bar to stick.
+    //console.log($(window).scrollTop())
+    if ($(window).scrollTop() > $(window).height()) {
+      $('#tripdetail-navbar').addClass('navbar-fixed');
+      $('#enquiry-form').addClass('fixed');
+
+    }
+    if ($(window).scrollTop() < $(window).height()) {
+      $('#tripdetail-navbar').removeClass('navbar-fixed');
+      $('#enquiry-form').removeClass('fixed');
     }
   });
 
@@ -68,7 +99,53 @@ var formIsValid=true;
     }
   });
   //Form Validation
-
+  $('#query-form').bootstrapValidator({
+    trigger: 'blur',
+    fields: {
+      Name: {
+        validators: {
+          notEmpty: {
+            message: 'Your  Name is required'
+          },
+          regexp: {
+            regexp: /^[a-zA-Z ]+$/,
+            message: 'Your name cannot have numbers or symbols'
+          }
+        }
+      },
+      Email: {
+        validators: {
+          notEmpty: {
+            message: 'The email is required'
+          },
+          emailAddress: {
+            message: 'The input is not a valid email address'
+          }
+        }
+      },
+      Phone: {
+        validators: {
+          notEmpty: {
+            message: 'The phone number is required'
+          },
+          regexp: {
+            regexp: /^(?:(?:\+|0{0,2})91(\s*[\-]\s*)?|[0]?)?[789]\d{9}$/,
+            message: 'The input is not a valid Indian phone number'
+          }
+        }
+      }
+    }
+  })
+  .on('error.field.bv', '[name="Query"]', function(e, data){
+    // change the data-bv-trigger value to keydown
+    //  $(e.target).attr('data-bv-trigger','keydown');
+    // destroy the plugin
+    // console.info(data.bv.getOptions());
+    data.bv.destroy();
+    // console.info(data.bv.getOptions());
+    // initialize the plugin
+    $('#query-form').bootstrapValidator(data.bv.getOptions());
+  });
   $('#signup-form').bootstrapValidator({
     trigger: 'blur',
     fields: {
@@ -88,7 +165,7 @@ var formIsValid=true;
           notEmpty: {
             message: 'The email is required'
           },
-           emailAddress: {
+          emailAddress: {
             message: 'The input is not a valid email address'
           }
         }
@@ -117,30 +194,25 @@ var formIsValid=true;
     $('#signup-form').bootstrapValidator(data.bv.getOptions());
   });
 
-    $('#signup-form').on('status.field.bv', function(e, data) {
-        formIsValid = true;
-        $('.form-group',$(this)).each( function() {
-            formIsValid = formIsValid && $(this).hasClass('has-success');
-        });
-
-        if(formIsValid) {
-            $('#signup-button', $(this)).attr('disabled', false);
-        } else {
-            $('#signup-button', $(this)).attr('disabled', true);
-        }
+  $('#signup-form,#enquiry-form').on('status.field.bv', function(e, data) {
+    formIsValid = true;
+    $('.form-group',$(this)).each( function() {
+      formIsValid = formIsValid && $(this).hasClass('has-success');
     });
-    //Reset form on closing Modal
-    $('.resetForm').click(function(){
-      $('#signup-form').trigger('reset');
-    });
+  });
+  //Reset form on closing Modal
+  $('.resetForm').click(function(){
+    $('#signup-form').trigger('reset');
+  });
 
   $('#signup-button').click(function(e){
-    if ($('#text-name').val().length != 0 && $('#email-input').val().length != 0 && $('#tel-input').val().length != 0)
+    if ($('#text-name').val().length != 0 && $('#email-input').val().length != 0 && $('#tel-input').val().length != 0 &&formIsValid)
     {
       var data = {
         Name: $("#text-name").val().trim(),
         Email: $("#email-input").val().trim(),
-        Phone: $("#tel-input").val().trim()
+        Phone: $("#tel-input").val().trim(),
+        Query:null
       };
       $.ajax({
         type: "POST",
@@ -153,6 +225,28 @@ var formIsValid=true;
             value: 0.00,
             currency: 'USD'
           });
+
+        }
+      });
+    }
+    else
+    alert("Please review the form!!");
+  });
+  $('#query-button').click(function(e){
+    if ($('#text-name').val().length != 0 && $('#email-input').val().length != 0 && $('#tel-input').val().length != 0 && $('#query-input').val().length!=0)
+    {
+      var data = {
+        Name: $("#text-name").val().trim(),
+        Email: $("#email-input").val().trim(),
+        Phone: $("#tel-input").val().trim(),
+        Query:$("#query-input").val().trim()
+      };
+      $.ajax({
+        type: "POST",
+        url: "submit-signup-form.php",
+        data: data,
+        success: function(){
+          $('#query-form').trigger('reset');
 
         }
       });
