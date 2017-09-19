@@ -817,15 +817,18 @@ blockquote .testimonial-footer
 #iti-header
 {
   background-size: cover;
-  height: 100%;
+  height: auto;
   padding: 0px;
 }
 #iti-header .section-wrap
 {
   padding-top: 25%;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
   text-align: center;
   background-color: rgba(0,0,0,0.5);
-  height: 100%;
+  height: auto;
   color:white;
 }
 #iti-header .section-wrap h1
@@ -911,7 +914,7 @@ blockquote .testimonial-footer
   background-color: none;
 }
 #iti-view .outline{
-  border-top: 1px solid #ddd;
+border-top: 1px solid #ddd;
 padding: 10px 0px;
 }
 #iti-detail .inline-list-style
@@ -956,18 +959,30 @@ padding: 10px 0px;
 {
   font-size: 14px;
 }
-
+@media (min-width:768px){
+  #iti-photos .carousel
+  {
+    width: 500px;
+    min-height: 400px;
+    margin:10px 0px;
+  }
+  #iti-photos .carousel img
+  {
+    display: block;
+    width: 500px;
+    min-height: 400px;
+    max-height: 400px;
+    overflow: hidden;
+  }
+}
 #iti-photos .carousel
 {
-  width: 500px;
-  min-height: 400px
+  max-height: 200px;
   margin:10px 0px;
 }
 #iti-photos .carousel img
 {
-  width: 500px;
-  min-height: 400px;
-  max-height: 400px;
+  max-height: 250px;
   overflow: hidden;
 }
 .navbar-fixed {

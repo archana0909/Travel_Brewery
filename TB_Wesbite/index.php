@@ -22,6 +22,9 @@
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
   <!-- Theme CSS -->
   <link href="css/creative.css" rel="stylesheet">
+  <link href="vendor/owl/css/owl.carousel.min.css" rel="stylesheet">
+  <link href="vendor/owl/css/owl.theme.default.min.css" rel="stylesheet">
+
   <!-- Facebook Pixel Code -->
   <script>
   !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -149,6 +152,66 @@
                 </div>
               </div>
             </section>
+            <section id="iti-potfolio">
+              <div class="container">
+                <h3 class=text-center>Our Top Tours</h3>
+                <hr class="light">
+                  <div class="owl-carousel owl-theme" id="iti-carousel">
+                    <div class="item">
+                      <a href="View-Itinerary.php">
+                        <article class="caption">
+                          <img class="caption-media" src="img/tn_header-iti-1.jpg" alt="feature image of East European Tour 1" title="travel tips">
+                          <div class="caption-overlay">
+                            <h4 class="caption-overlay-title">Diwali In Europe</h4>
+                            <p class="article-desc">
+                              12 Days/11 Nights Tour in East Europe for Rs 113,999 only!
+                            </p>
+                          </div>
+                        </article>
+                      </a>
+                    </div>
+                    <div class="item">
+                      <a href="View-Itinerary-1.php">
+                        <article class="caption">
+                          <img class="caption-media" src="img/tn_header-iti-2.jpg" alt="feature image of Italy Tour 2" title="travel tips">
+                          <div class="caption-overlay">
+                            <h4 class="caption-overlay-title">Royal Italian Sojourn</h4>
+                            <p class="article-desc">
+                              7 Nights/8 Days Tour of Rome, Florence and Venice for Rs 91,999 only!
+                            </p>
+                          </div>
+                        </article>
+                      </a>
+                    </div>
+                    <div class="item">
+                      <a href="View-Itinerary-2.php">
+                        <article class="caption">
+                          <img class="caption-media" src="http://www.travelbrewery.com/blog/wp-content/uploads/2017/09/bali-237196_640.jpg" alt="feature image of Bali Tour 3" title="Bali Tour">
+                          <div class="caption-overlay">
+                            <h4 class="caption-overlay-title">The Indonesian Retreat</h4>
+                            <p class="article-desc">
+                              6 Days / 5 Nights Tour of Bali, Indonesia for Rs 52,999 only!
+                            </p>
+                          </div>
+                        </article>
+                      </a>
+                    </div>
+                    <div class="item">
+                      <a href="View-Itinerary-3.php">
+                        <article class="caption">
+                          <img class="caption-media" src="http://www.travelbrewery.com/blog/wp-content/uploads/2017/09/dubai-1505040_1920.jpg" alt="feature image of Dubai Tour 4" title="Dubai Tour">
+                          <div class="caption-overlay">
+                            <h4 class="caption-overlay-title">Amazing Dubai</h4>
+                            <p class="article-desc">
+                              5 Days/ 4 Nights Tour in the Amazing Dubai only for Rs 40,999/-!
+                            </p>
+                          </div>
+                        </article>
+                      </a>
+                    </div>
+                </div>
+              </div>
+            </section>
             <section id="tours">
               <div class="container">
                 <div class="row">
@@ -209,110 +272,37 @@
                 </div>
               </aside>
 
-              <section id="iti-potfolio">
+              <section id="contact">
                 <div class="container">
-                  <h3 class=text-center>Our Top Tours</h3>
-                  <hr class="light">
                   <div class="row">
-                    <div class="col-md-12">
-                      <div class="carousel slide multi-item-carousel" id="iti-carousel">
-                        <div class="carousel-inner">
-                          <div class="item active">
-                            <div class="col-xs-4"><a href="View-Itinerary.php">
-                              <article class="caption">
-                                <img class="caption-media" src="img/tn_header-iti-1.jpg" alt="feature image of East European Tour 1" title="travel tips">
-                                <div class="caption-overlay">
-                                  <h4 class="caption-overlay-title">Diwali In Europe</h4>
-                                  <p class="article-desc">
-                                    12 Days/11 Nights Tour in East Europe for Rs 113,999 only!
-                                  </p>
-                                </div>
-                              </article>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="item">
-                          <div class="col-xs-4"><a href="View-Itinerary-1.php">
-                            <article class="caption">
-                              <img class="caption-media" src="img/tn_header-iti-2.jpg" alt="feature image of Italy Tour 2" title="travel tips">
-                              <div class="caption-overlay">
-                                <h4 class="caption-overlay-title">Royal Italian Sojourn</h4>
-                                <p class="article-desc">
-                                  7 Nights/8 Days Tour of Rome, Florence and Venice for Rs 91,999 only!
-                                </p>
-                              </div>
-                            </article>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="item">
-                        <div class="col-xs-4"><a href="View-Itinerary-2.php">
-                          <article class="caption">
-                            <img class="caption-media" src="http://www.travelbrewery.com/blog/wp-content/uploads/2017/09/bali-237196_640.jpg" alt="feature image of Bali Tour 3" title="Bali Tour">
-                            <div class="caption-overlay">
-                              <h4 class="caption-overlay-title">The Indonesian Retreat</h4>
-                              <p class="article-desc">
-                                6 Days / 5 Nights Tour of Bali, Indonesia for Rs 52,999 only!
-                              </p>
-                            </div>
-                          </article>
-                        </a>
-                      </div>
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                      <h2 class="section-heading">Contact Us</h2>
+                      <hr class="primary">
                     </div>
-                    <div class="item">
-                      <div class="col-xs-4"><a href="View-Itinerary-3.php">
-                        <article class="caption">
-                          <img class="caption-media" src="http://www.travelbrewery.com/blog/wp-content/uploads/2017/09/dubai-1505040_1920.jpg" alt="feature image of Dubai Tour 4" title="Dubai Tour">
-                          <div class="caption-overlay">
-                            <h4 class="caption-overlay-title">Amazing Dubai</h4>
-                            <p class="article-desc">
-                              5 Days/ 4 Nights Tour in the Amazing Dubai only for Rs 40,999/-!
-                            </p>
-                          </div>
-                        </article>
-                      </a>
+                    <div class="col-lg-4 col-lg-offset-2 text-center">
+                      <i class="fa fa-phone fa-3x sr-contact"></i>
+                      <p>+91-7016768700</p>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                      <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                      <p><a href="mailto:info@travelbrewery.com">info@travelbrewery.com</a></p>
                     </div>
                   </div>
                 </div>
-                <a class="left carousel-control" href="#iti-carousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-                <a class="right carousel-control" href="#iti-carousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="contact">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-              <h2 class="section-heading">Contact Us</h2>
-              <hr class="primary">
-            </div>
-            <div class="col-lg-4 col-lg-offset-2 text-center">
-              <i class="fa fa-phone fa-3x sr-contact"></i>
-              <p>+91-7016768700</p>
-              <p>+91-8452962313</p>
-              <p>+91-7702303908</p>
-
-            </div>
-            <div class="col-lg-4 text-center">
-              <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-              <p><a href="mailto:info@travelbrewery.com">info@travelbrewery.com</a></p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <?php include 'footer.php';?>
-      <!-- jQuery -->
-      <script src="vendor/jquery/jquery.min.js"></script>
-      <!-- Bootstrap Core JavaScript -->
-      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-      <!-- Plugin JavaScript -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-      <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-      <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-      <!-- Theme JavaScript -->
-      <script src="js/creative.js"></script>
-    </body>
-    </html>
+              </section>
+              <?php include 'footer.php';?>
+              <!-- jQuery -->
+              <script src="vendor/jquery/jquery.min.js"></script>
+              <!-- Bootstrap Core JavaScript -->
+              <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+              <!-- Plugin JavaScript -->
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+              <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+              <script src="vendor/owl/owl.carousel.js"></script>
+              <script src="vendor/owl/owl.autorefresh.js"></script>
+              <script src="vendor/owl/owl.autoplay.js"></script>
+              <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+              <!-- Theme JavaScript -->
+              <script src="js/creative.js"></script>
+            </body>
+            </html>

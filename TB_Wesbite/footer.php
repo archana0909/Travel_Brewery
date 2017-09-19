@@ -5,7 +5,7 @@
         <div>
           <h3><span>TRAVEL&nbsp;</span><span class="footer-logo">BREWERY</span></h3>
         </div>
-        <div class="contactnumber">+91 8452 962 313</div>
+        <div class="contactnumber">+91-7016768700</div>
 
         <ul class="social list-inline">
           <li class="list-inline-item">

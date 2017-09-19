@@ -1,9 +1,6 @@
 (function($) {
   "use strict"; // Start of use strict
   var formIsValid=true;
-  $('.multi-item-carousel').carousel({
-    interval: false
-  });
   // jQuery for page scrolling feature - requires jQuery Easing plugin
   $(document).on('click', 'a.page-scroll', function(event) {
     var $anchor = $(this);
@@ -12,26 +9,34 @@
     }, 1250, 'easeInOutExpo');
     event.preventDefault();
   });
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:2000,
+
+    dots:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            nav:true,
+            items:1,
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            nav:true,
+            items:3
+        }
+    }
+});
 
   // Highlight the top nav as scrolling occurs
   $('body').scrollspy({
     target: '.navbar-fixed-top',
     offset: 51
   });
-  $('.multi-item-carousel .item').each(function(){
-    var next = $(this).next();
-    if (!next.length) {
-      next = $(this).siblings(':first');
-    }
-    next.children(':first-child').clone().appendTo($(this));
-
-    if (next.next().length>0) {
-      next.next().children(':first-child').clone().appendTo($(this));
-    } else {
-      $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
-    }
-  });
-
   // Closes the Responsive Menu on Menu Item Click
   $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
